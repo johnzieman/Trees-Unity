@@ -15,11 +15,11 @@ C:/Users/John/New Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57504
+64160
 Successfully changed project path to: C:/Users/John/New Project
 C:/Users/John/New Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.86 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.24f1 (79c78de19888)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001651 seconds.
+Registered in 0.001643 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 44.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  0.799 seconds
 Domain Reload Profiling:
-	ReloadAssembly (842ms)
+	ReloadAssembly (799ms)
 		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (671ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (234ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (25ms)
-				ProcessInitializeOnLoadAttributes (117ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (116ms)
 				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,34 +73,34 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004304 seconds.
+Registered in 0.004261 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.449 seconds
+- Completed reload, in  1.511 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1450ms)
+	ReloadAssembly (1512ms)
 		BeginReloadAssembly (198ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1168ms)
+		EndReloadAssembly (1228ms)
 			LoadAssemblies (110ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (381ms)
+			SetupTypeCache (440ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (69ms)
-			SetupLoadedEditorAssemblies (470ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (460ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (121ms)
-				ProcessInitializeOnLoadAttributes (321ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (309ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1500 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 68.1 MB.
 System memory in use after: 68.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1937.
-Total: 3.667700 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.076700 ms MarkObjects: 3.318400 ms  DeleteObjects: 0.079100 ms)
+Total: 3.883300 ms (FindLiveObjects: 0.211200 ms CreateObjectMapping: 0.080900 ms MarkObjects: 3.479200 ms  DeleteObjects: 0.110600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,9 +131,194 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/New Material 1.mat
-  artifactKey: Guid(bf40f32d28ee55b4fa371051e8aca74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/New Material 1.mat using Guid(bf40f32d28ee55b4fa371051e8aca74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4b5a3e29250535d1d150f32d8274e8') in 0.150834 seconds 
-  Import took 0.154301 seconds .
+  path: Assets/Tree_Textures/Materials/normal_specular.mat
+  artifactKey: Guid(41434af7492feab498e6df9750fbf054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials/normal_specular.mat using Guid(41434af7492feab498e6df9750fbf054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643b5da4aed57d7b958b14212633e414') in 0.173135 seconds 
+  Import took 0.176863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Tree_Textures/Materials/diffuse.mat
+  artifactKey: Guid(31caa64e54334f94280e98a11603a191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials/diffuse.mat using Guid(31caa64e54334f94280e98a11603a191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06a69ff92725c37d3ca765b725a9f8e') in 0.020502 seconds 
+  Import took 0.023753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Tree_Textures/Materials/shadow.mat
+  artifactKey: Guid(f8a81d6708d52d2478a3803b4206f1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree_Textures/Materials/shadow.mat using Guid(f8a81d6708d52d2478a3803b4206f1d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e447337549d3336c02478a5f72bd71a8') in 0.021910 seconds 
+  Import took 0.026230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.998114 seconds.
+  path: Assets/Darth_Artisan/Free_Trees
+  artifactKey: Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees using Guid(b7aee0f11d1aa466daa952466d59cae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b3710d7fcc912709792febf86310cff') in 0.008976 seconds 
+  Import took 0.012888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.891060 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Textures
+  artifactKey: Guid(05c318f3b28d946cea195fb1d77995fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Textures using Guid(05c318f3b28d946cea195fb1d77995fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465a12146781a828560f2a466f50ac0') in 0.016511 seconds 
+  Import took 0.020018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082707 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png
+  artifactKey: Guid(255283d354122406ebf8159c5ea35b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png using Guid(255283d354122406ebf8159c5ea35b7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452dd3ab9abe8165ba4a24230a4efb64') in 0.075802 seconds 
+  Import took 0.079663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 217.694110 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Materials
+  artifactKey: Guid(4e2775eb3ae7c6346aecf4afcbef5f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Materials using Guid(4e2775eb3ae7c6346aecf4afcbef5f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f48ee456baaf9ccd7140783d5dce014') in 0.010402 seconds 
+  Import took 0.021726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.060229 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Materials/tree_diffuse.mat
+  artifactKey: Guid(e64ef353a63b3694d92bdaa6606ab408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Materials/tree_diffuse.mat using Guid(e64ef353a63b3694d92bdaa6606ab408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5148d0672742a6fba6d0589fbfbb47') in 0.016620 seconds 
+  Import took 0.020380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.280338 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes
+  artifactKey: Guid(a6ef2755a6b574604ade3c2a47d9d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes using Guid(a6ef2755a6b574604ade3c2a47d9d0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d8baf5c6e408b466967149a7e9b5a7') in 0.008663 seconds 
+  Import took 0.020146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277396 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx
+  artifactKey: Guid(d7ad634caa1c049d49b730cc6d29c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx using Guid(d7ad634caa1c049d49b730cc6d29c683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d833d34ad37a379ba883f6bd025298c') in 0.111286 seconds 
+  Import took 0.114832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx
+  artifactKey: Guid(186ad8f063dbf430da4d56ebc0cb14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Poplar_Tree.fbx using Guid(186ad8f063dbf430da4d56ebc0cb14e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c7a97126a7d3f44126eaf30f6ab6e5') in 0.022520 seconds 
+  Import took 0.026968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx
+  artifactKey: Guid(6d58037af810b4021ac921a71033e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Oak_Tree.fbx using Guid(6d58037af810b4021ac921a71033e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb524fb47254fae9881ad2b32cd1289') in 0.024104 seconds 
+  Import took 0.028750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx
+  artifactKey: Guid(1e50ef3048667495d90210b70c070c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Palm_Tree.fbx using Guid(1e50ef3048667495d90210b70c070c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe0f08a1b9f77e28b6a64e842bc6c0a8') in 0.023408 seconds 
+  Import took 0.028703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.910811 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials
+  artifactKey: Guid(d40899a84663b4ed1885d99c68c31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials using Guid(d40899a84663b4ed1885d99c68c31518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9cfdf5e887ffbfc8c24024c944bb1d') in 0.010276 seconds 
+  Import took 0.013649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045398 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat
+  artifactKey: Guid(af65c0942482e46aeb256506726ff0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat using Guid(af65c0942482e46aeb256506726ff0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6938dcd5554b1b7d07f0b68b80b337f') in 0.018239 seconds 
+  Import took 0.021623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat
+  artifactKey: Guid(98189d553b7404d8290e447fb600ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Meshes/Materials/No Name.mat using Guid(98189d553b7404d8290e447fb600ac6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c61f3ee456efc86c54f3ee757486e98') in 0.016940 seconds 
+  Import took 0.020008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.149759 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs
+  artifactKey: Guid(2365d38fec1724d4199604c670e1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs using Guid(2365d38fec1724d4199604c670e1f4a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c891b17c57ac8fdf9573a46fe0fc06e8') in 0.018826 seconds 
+  Import took 0.022579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058293 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab
+  artifactKey: Guid(19682540d8a014522a319b1cf788aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab using Guid(19682540d8a014522a319b1cf788aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd9628bc50fe86bb44d24fe04ae2ab2') in 0.018404 seconds 
+  Import took 0.021844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Poplar_Tree.prefab
+  artifactKey: Guid(826b6a0b570e8460990010fa615b5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Poplar_Tree.prefab using Guid(826b6a0b570e8460990010fa615b5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0754ca3aa6b3302e7f22ee3b9f96af') in 0.016688 seconds 
+  Import took 0.020729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab
+  artifactKey: Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Oak_Tree.prefab using Guid(c44bd9bdc114d4a60932c0087d9d1732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b9601bff97c5e2b17b8a63ec90e276') in 0.020656 seconds 
+  Import took 0.024351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab
+  artifactKey: Guid(c6b7fb383a3534b039692b5485b6e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Prefabs/Palm_Tree.prefab using Guid(c6b7fb383a3534b039692b5485b6e739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630547b91ccb537048459a5006679c7e') in 0.018331 seconds 
+  Import took 0.023012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.084169 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Scenes
+  artifactKey: Guid(98e0572031ebf4a8aa53dbb5267597f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Scenes using Guid(98e0572031ebf4a8aa53dbb5267597f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ec2096f67914c682aa86a2c0d0325d') in 0.008729 seconds 
+  Import took 0.019655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.126676 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Scenes/DemoSettings.lighting
+  artifactKey: Guid(14861ed2d329af34699251f4eb19dbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Scenes/DemoSettings.lighting using Guid(14861ed2d329af34699251f4eb19dbf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '72924fce80757852738890cf6c7fef26') in 0.011203 seconds 
+  Import took 0.014504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.238428 seconds.
+  path: Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity
+  artifactKey: Guid(b4025dc8942fc4ed5bc67ff2252091da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Darth_Artisan/Free_Trees/Scenes/Demo.unity using Guid(b4025dc8942fc4ed5bc67ff2252091da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dccb9ccce66eae3ca8d1c75650578f6') in 0.008992 seconds 
+  Import took 0.012286 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
